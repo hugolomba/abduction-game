@@ -66,7 +66,7 @@ Your objective is to accumulate points by abducting creatures while avoiding dan
 
 ## 🌐 Live Demo
 
-🔗 [Play the game here](http://hugomiranda.me/Abduction-Game/)
+🔗 [Play the game here](https://hugolomba.github.io/abduction-game/)
 
 <img src="./img/README-images/demo.gif" alt="Gameplay demo gif">
 
