@@ -373,7 +373,7 @@ const myGameArea = {
 
 function updateObstacles() {
   myGameArea.frames += 1;
-  console.log(myGameArea.dificulty);
+
   if (myGameArea.frames % 1200 === 0) myGameArea.dificulty -= 20;
   if (myGameArea.dificulty < 60) myGameArea.dificulty = 60;
 
