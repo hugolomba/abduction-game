@@ -1,52 +1,84 @@
-## The Abduction Game
+# 👽 The Abduction Game
 
-Project #1 - Web Development - IRONHACK
+🛸 A fast-paced browser game built entirely with JavaScript, HTML5 Canvas, and CSS3.
 
-## Introduction
+---
+
+## 🚀 Introduction
 
 You are a UFO pilot passing through a little planet called Earth.
 
-Your objective is to accumulate points by abducting the beings that appear on your way while avoiding obstacles that damage your ship and can destroy you.
+Your objective is to accumulate points by abducting creatures while avoiding dangerous obstacles that damage your spaceship. As time passes, the game becomes more challenging, faster, and unpredictable.
 
-<img src="./img/README-images/demo-img.png">
+<img src="./img/README-images/demo-img.png" alt="Gameplay Screenshot">
 
-## Features
+---
 
-- Your spaceship has a powerful light that can be used to abduct thing. The abduction light can only be used at the correct altitude.
-  The ship's lights will come on when the abduction system is activated.
+## 🎯 Core Features
 
-<img src="./img/README-images/lightactivation.gif">
+- Real-time spaceship control using keyboard arrows
+- Abduction beam activated with the **spacebar**
+- Sound feedback for interactions (abduction, collision, alerts)
+- Lives system with visual hearts + game over screen
+- Score and highscore tracking
+- Dynamic spawning of enemies and obstacles
+- Difficulty progression: speed and amount of elements increase over time
+- Language toggle (EN/PT) + instruction screen with user guidance
 
-- Each impact removes one life, represented by a heart. When the number of lives is zero, the game ends.
+---
 
-<img src="./img/README-images/gameover.gif">
+## 🧠 Technologies & Skills Demonstrated
 
-- This planet has diverse beings and each one provides a different score when abducted. The planet's inhabitants also produce dangerous things, be careful when abducting them, they lower your score.
+- **JavaScript (ES6+):**
 
-<img src="./img/README-images/introduction-points.png">
+  - Object-oriented programming with classes
+  - Collision detection
+  - Animation frame control (`requestAnimationFrame`)
+  - DOM manipulation and event listeners
+  - Audio integration
 
-- Speed and amount of obstacles increase with game time
-- Periodically, non-abducted beings disappear to make room for new ones
-- The ship emits a sound indicating when something is abducted
-- The start screen has a button with all the game instructions.
+- **HTML5 Canvas:**
 
-## GamePlay
+  - 2D rendering context
+  - Sprite animation
+  - Layered visual elements (UFO, light, NPCs, UI)
 
-- Keyboard arrows move the ship
+- **CSS3:**
 
-<img src="./img/README-images/keys.png">
+  - Retro game styling with pixel fonts
+  - Responsive layout and button interactivity
 
-- Space key activates the abduction light
+- **UX/UI:**
+  - Clear visual feedback
+  - Multilingual support
+  - Interactive start, instruction and game-over screens
 
-<img src="./img/README-images/light-activation.gif">
+---
 
-## Live Game
+## 🎮 Gameplay
 
-To play the game, click on the link: http://hugomiranda.me/Abduction-Game/
+- **Arrow keys**: Move the spaceship
+- **Space bar**: Activate abduction light (usable only at correct altitude)
 
-<img src="./img/README-images/demo.gif">
+<img src="./img/README-images/keys.png" alt="Keyboard Controls">
 
-## Upcoming Features
+---
 
-- Player evolution system
-- Player choice system
+## 🌐 Live Demo
+
+🔗 [Play the game here](http://hugomiranda.me/Abduction-Game/)
+
+<img src="./img/README-images/demo.gif" alt="Gameplay demo gif">
+
+---
+
+## 📦 Upcoming Features
+
+- Player progression system
+- Character/ship selection system
+
+---
+
+## 🙌 Author
+
+Developed by **Hugo Miranda**
